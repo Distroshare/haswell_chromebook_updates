@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<data>
+  <version number="1.0">
+  </version>
+  <packages_to_hold>
+    <package name="pm-utils">
+    </package>
+    <package name="zram-config">
+    </package>
+  </packages_to_hold>
+  <packages_to_install>
+    <package name="xf86-input-cmt">
+    </package>
+  </packages_to_install>
+</data>
+
