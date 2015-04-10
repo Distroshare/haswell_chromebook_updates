@@ -11,6 +11,14 @@
   <packages_to_install>
     <package name="xf86-input-cmt">
     </package>
+    <package name="zram-config">
+    </package>
+    <package name="linux-image-3.18.7">
+    </package>
+    <package name="linux-firmware-image-3.18.7">
+    </package>
+    <package name="linux-headers-3.18.7">
+    </package>
   </packages_to_install>
 </data>
 
