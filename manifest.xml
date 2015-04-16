@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <data>
-  <version number="1.0.2">
+  <version number="1.0.3">
   </version>
   <packages_to_hold>
     <package name="pm-utils">
@@ -22,10 +22,6 @@
   </packages_to_install>
    <repos_to_add>
     <repo address="ppa:hugegreenbug/cmt2">
-    </repo>
-    <repo address="http://www.distroshare.com/apt">
-    </repo>
-    <repo address="http://www.distroshare.com/apt_haswell">
     </repo>
   </repos_to_add>
 </data>
