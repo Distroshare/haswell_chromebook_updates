@@ -1,3 +1,6 @@
 deb http://www.distroshare.com/apt trusty main
+deb-src http://www.distroshare.com/apt trusty main
 deb http://www.distroshare.com/apt_haswell trusty main
+deb-src http://www.distroshare.com/apt_haswell trusty main
 deb http://www.distroshare.com/apt_eos trusty-distroshare main
+deb-src http://www.distroshare.com/apt_eos trusty-distroshare main
