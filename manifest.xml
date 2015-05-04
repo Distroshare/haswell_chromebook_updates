@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <data>
-  <version number="1.0.7">
+  <version number="1.0.8">
   </version>
   <packages_to_hold>
     <package name="pm-utils">
@@ -12,6 +12,8 @@
     <package name="xf86-input-cmt">
     </package>
     <package name="zram-config">
+    </package>
+    <package name="thermald">
     </package>
     <package name="linux-image-3.18.7">
     </package>
