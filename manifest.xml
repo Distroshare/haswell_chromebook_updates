@@ -15,12 +15,6 @@
     </package>
     <package name="thermald">
     </package>
-    <package name="linux-image-3.18.7">
-    </package>
-    <package name="linux-firmware-image-3.18.7">
-    </package>
-    <package name="linux-headers-3.18.7">
-    </package>
   </packages_to_install>
    <repos_to_add>
     <repo address="ppa:hugegreenbug/cmt2">
