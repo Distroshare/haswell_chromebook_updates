@@ -2,5 +2,5 @@ deb http://www.distroshare.com/apt vivid main
 deb-src http://www.distroshare.com/apt vivid main
 deb http://www.distroshare.com/apt_haswell vivid main
 deb-src http://www.distroshare.com/apt_haswell vivid main
-deb http://www.distroshare.com/apt_ubuntu vivid main
-deb-src http://www.distroshare.com/apt_ubuntu vivid main
+deb http://www.distroshare.com/apt_ubuntu vivid-distroshare main
+deb-src http://www.distroshare.com/apt_ubuntu vivid-distroshare main
