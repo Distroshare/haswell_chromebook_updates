@@ -1,4 +1,0 @@
-Explanation: OS patches for Ubuntu
-Package: *
-Pin: release n=vivid-distroshare
-Pin-Priority: 9999
