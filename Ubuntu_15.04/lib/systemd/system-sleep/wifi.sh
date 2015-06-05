@@ -7,6 +7,7 @@ case $1/$2 in
 	;;
     post/*)
 	/sbin/modprobe ath9k
+	systemctl restart NetworkManager
 	;;
 esac
 exit 0
