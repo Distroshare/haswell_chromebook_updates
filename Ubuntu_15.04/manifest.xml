@@ -13,7 +13,6 @@
     </package>
   </packages_to_install>
    <repos_to_add>
-    <repo address="ppa:oibaf/graphics-drivers">
     </repo>
   </repos_to_add>
 </data>
