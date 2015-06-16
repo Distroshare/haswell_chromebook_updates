@@ -9,12 +9,6 @@
     </package>
   </packages_to_hold>
   <packages_to_install>
-    <package name="linux-image-3.19.6">
-    </package>
-    <package name="linux-firmware-image-3.19.6">
-    </package>
-    <package name="linux-headers-3.19.6">
-    </package>
     <package name="xf86-input-cmt">
     </package>
     <package name="zram-config">
