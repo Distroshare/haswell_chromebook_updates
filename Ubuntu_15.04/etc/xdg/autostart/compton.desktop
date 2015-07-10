@@ -2,7 +2,7 @@
 Version=1.0
 Name=Compton
 Comment=Compton Compositor
-Exec=compton -b
+Exec=compton --config /etc/xdg/xdg-ubuntu/compton.conf -b
 Terminal=false
 Type=Application
 StartupNotify=false
