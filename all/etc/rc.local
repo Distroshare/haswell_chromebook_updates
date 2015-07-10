@@ -11,8 +11,15 @@
 #
 # By default this script does nothing.
 
+#Change permissions on backlight controls
 chgrp plugdev /sys/class/backlight/intel_backlight/brightness
 chmod 664 /sys/class/backlight/intel_backlight/brightness
+
+#Disable waking up by the touchpad
 echo TPAD > /proc/acpi/wakeup
+
+#Improve bluetooth powersaving
+#From: https://github.com/the-unconventional/c720-powersave/blob/master/usr/local/bin/bluetooth-autosuspend.sh 
+echo auto > /sys/bus/usb/devices/1-4/power/control
 
 exit 0
