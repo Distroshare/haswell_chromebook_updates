@@ -27,7 +27,7 @@
 
 # IRQ thread service names
 # (space separated list, from higher to lower priority).
-RTIRQ_NAME_LIST="rtc snd usb i8042"
+RTIRQ_NAME_LIST="rtc snd usb i8042 43 16"
 
 # Highest priority.
 RTIRQ_PRIO_HIGH=90
