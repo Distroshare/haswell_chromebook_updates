@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Name=Compton
+Comment=Compton Compositor
+Exec=compton -b
+Terminal=false
+Type=Application
+StartupNotify=false
+OnlyShowIn=XFCE;
