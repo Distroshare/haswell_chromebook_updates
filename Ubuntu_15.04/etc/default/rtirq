@@ -49,4 +49,4 @@ RTIRQ_NON_THREADED=""
 # Process names which will be forced to the
 # highest realtime priority range (99-91)
 # (space separated list, from highest to lower priority).
-RTIRQ_HIGH_LIST="cyapa"
+RTIRQ_HIGH_LIST="dw_dmac i2c cyapa"
