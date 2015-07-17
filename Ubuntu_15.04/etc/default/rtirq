@@ -27,7 +27,7 @@
 
 # IRQ thread service names
 # (space separated list, from higher to lower priority).
-RTIRQ_NAME_LIST="snd usb ath9k"
+RTIRQ_NAME_LIST="snd usb"
 
 # Highest priority.
 RTIRQ_PRIO_HIGH=90
@@ -44,9 +44,9 @@ RTIRQ_RESET_ALL=0
 # On kernel configurations that support it,
 # which services should be NOT threaded 
 # (space separated list).
-RTIRQ_NON_THREADED="rtc cyapa"
+RTIRQ_NON_THREADED=""
 
 # Process names which will be forced to the
 # highest realtime priority range (99-91)
 # (space separated list, from highest to lower priority).
-RTIRQ_HIGH_LIST="rtc cyapa"
+RTIRQ_HIGH_LIST="cyapa"
