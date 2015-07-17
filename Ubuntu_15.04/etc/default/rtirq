@@ -27,7 +27,7 @@
 
 # IRQ thread service names
 # (space separated list, from higher to lower priority).
-RTIRQ_NAME_LIST="i2c dw_dmac i915 cyapa snd usb"
+RTIRQ_NAME_LIST="i915 i2c dw_dmac cyapa snd usb"
 
 # Highest priority.
 RTIRQ_PRIO_HIGH=90
