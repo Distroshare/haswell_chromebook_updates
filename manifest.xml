@@ -20,7 +20,7 @@
     <package name="intel-microcode">
     </package>
   </packages_to_install>
-   <repos_to_add>
+  <repos_to_add>
     <repo address="ppa:hugegreenbug/cmt2">
     </repo>
   </repos_to_add>

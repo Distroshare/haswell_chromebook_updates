@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <data>
-  <version number="1.0.8">
+  <version number="1.0.9">
   </version>
   <packages_to_hold>
   </packages_to_hold>
@@ -13,11 +13,13 @@
     </package>
     <package name="rtirq-init">
     </package>
+    <package name="cgroup-bin">
+    </package>
   </packages_to_install>
   <packages_to_remove>
     <package name="irqbalance">
     </package>
   </packages_to_remove>
-   <repos_to_add>
+  <repos_to_add>
   </repos_to_add>
 </data>
