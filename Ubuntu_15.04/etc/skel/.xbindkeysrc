@@ -1,0 +1,19 @@
+#Delete
+"xvkbd -xsendevent -text '\[Delete]'"
+   Mod4 + BackSpace
+
+#End
+"xvkbd -xsendevent -text '\[End]'"
+   Mod4 + Right
+
+#Home
+"xvkbd -xsendevent -text '\[Home]'"
+   Mod4 + Left
+
+#Page Down
+"xvkbd -xsendevent -text '\[Page_Down]'"
+   Mod4 + Down
+
+#Page Up
+"xvkbd -xsendevent -text '\[Page_Up]'"
+   Mod4 + Up
