@@ -1,0 +1,11 @@
+[Unit]
+Description=Initializes irq cpu affinity
+
+[Service]
+ExecStart=/usr/local/bin/set_irq_affinity.sh
+ExecStop=/bin/true
+Type=oneshot
+RemainAfterExit=true
+
+[Install]
+WantedBy=multi-user.target
