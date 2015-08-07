@@ -22,6 +22,4 @@ echo TPAD > /proc/acpi/wakeup
 #From: https://github.com/the-unconventional/c720-powersave/blob/master/usr/local/bin/bluetooth-autosuspend.sh 
 echo "auto" > /sys/bus/usb/devices/1-4/power/control
 
-#By hugegreenbug to improve the mouse responsiveness
-echo "1000" > /sys/devices/pci0000:00/0000:00:02.0/drm/card0/gt_min_freq_mhz
 exit 0

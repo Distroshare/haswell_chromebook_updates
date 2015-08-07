@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <data>
-  <version number="1.0.38">
+  <version number="1.0.39">
   </version>
   <packages_to_hold>
     <package name="pm-utils">
