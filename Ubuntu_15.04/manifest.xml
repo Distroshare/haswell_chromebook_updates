@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <data>
-  <version number="1.0.12">
+  <version number="1.0.13">
   </version>
   <packages_to_hold>
   </packages_to_hold>
@@ -18,6 +18,10 @@
     <package name="irqbalance">
     </package>
   </packages_to_remove>
+  <systemd_services_to_enable>
+    <service name="irq-affinity">
+    </service>
+  </systemd_services_to_enable>
   <repos_to_add>
   </repos_to_add>
 </data>
