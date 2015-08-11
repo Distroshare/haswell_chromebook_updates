@@ -11,8 +11,8 @@ case $1/$2 in
             dmesg | grep cyapa | tail -1 | grep "\(error\|fail\)" >/dev/null
             RES=$?
             if [ ${RES} -ne 1 ] ; then
-  		/sbin/rmmod cyapa
-                /sbin/modprobe cyapa
+  		/sbin/rmmod cyapatp
+                /sbin/modprobe cyapatp
  		sleep 1
             else
  		#done
